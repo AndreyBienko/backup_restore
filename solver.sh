@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipe
+set -euo pipefail
 # Stop on errors (-e), undefined vars (-u), and pipe failures (-o pipefail)
 
 BASE="https://hackattic.com"
