@@ -69,3 +69,13 @@ or
   "message": "woah there! you've solved this one, no need to convince me more.",
   "hint": "if you want to refine your solution, pass &playground=1 to disable this warning"
 }
+
+
+---
+
+## 🧩 TODO
+
+- [ ] Remove hardcoded variables (like `BASE`, `DB`, `PGUSER`) from `solve.sh`  
+  and move them into environment variables or workflow configuration.  
+- [ ] Add a **test run workflow** that executes on every pull request  
+  to verify that the solution script runs successfully before merging into `main`.  
